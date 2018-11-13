@@ -9,7 +9,6 @@ import {
 } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { forEach } from '@angular/router/src/utils/collection';
 
 @Injectable()
 export class ErrorInteceptor implements HttpInterceptor {
